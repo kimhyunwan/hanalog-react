@@ -1,0 +1,39 @@
+/* Header.css */
+.header {
+    display: flex;
+    justify-content: space-between; /* 양쪽 끝에 정렬 */
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+    position: fixed;   
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    height: 35px;
+  }
+  
+  .leftGroup {
+    display: flex;
+    align-items: center; /* 버튼과 타이틀 수직 중앙 정렬 */
+  }
+  
+  .iconButton {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #333;
+  }
+  
+  .iconButton svg {
+    color: #333;
+  }
+  
+  .title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 10px; /* 화살표 버튼과 타이틀 사이 간격 */
+    color: #333;
+  }
+  
