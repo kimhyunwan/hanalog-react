@@ -1,0 +1,65 @@
+.contents {
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+}
+
+.js_tabs {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 12px;
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.js_tabs button {
+  flex: 1;
+  padding: 10px 0;
+  border: none;
+  background: none;
+  font-size: 16px;
+  font-weight: 500;
+  color: #333;
+  cursor: pointer;
+}
+
+/* 활성 탭 스타일 */
+.js_tabs button.active {
+  color: #007bff;
+  border-bottom: 2px solid #007bff;
+}
+
+.my_hanalog {
+  display: flex;
+  align-items: center;
+  padding: 12px 0;
+  border-bottom: 1px solid #eee;
+  cursor: pointer;
+}
+
+.my_hanalog img {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.my_hanalog span {
+  font-size: 16px;
+  font-weight: 500;
+  color: #333;
+}
+
+/* 탭과 "나의 여행만렙"을 같은 줄에 배치 */
+.js_tabs {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.my_hanalog {
+  margin-left: 16px;
+}
